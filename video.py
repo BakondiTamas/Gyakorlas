@@ -2,7 +2,7 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.mp4', fourcc, 30.0, (640,480))
+out = cv2.VideoWriter('output.mp4', fourcc, 30.0, (1280,720))
 
 cap.set(3, 1280)
 cap.set(4, 720)
